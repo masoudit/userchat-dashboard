@@ -1,3 +1,32 @@
+@font-face {
+	font-family: IRANYekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./../../fonts/yekan/eot/IRANYekanWebRegular.eot');
+	src: url('./../../fonts/yekan/eot/IRANYekanWebRegular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./../../fonts/yekan/woff2/IRANYekanWebRegular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./../../fonts/yekan/woff/IRANYekanWebRegular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./../../fonts/yekan/ttf/IRANYekanWebRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANYekanNumber;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./../../fonts/yekan/yekan-number/iranyekanwebregularfanum.eot');
+	src: url('./../../fonts/yekan/yekan-number/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./../../fonts/yekan/yekan-number/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./../../fonts/yekan/yekan-number/iranyekanwebregularfanum.ttf') format('truetype');
+}
+body,a, p, h1,h2,h3,h4,h5,p, div, span {
+    font-family: IRANYekan;
+}
+h1,h2,h3,h4,h5 {
+    font-family: IRANYekan !important;
+}
+.wrap-shortcut-title-home-header {
+    font-family: IRANYekan !important;
+}
 .wrapper {
     position: relative;
     top: 0;
@@ -269,6 +298,7 @@
 }
 
 .main-panel {
+    // direction: rtl;
     //background: rgba(203,203,210,.15);
     position: relative;
     // z-index: 2;

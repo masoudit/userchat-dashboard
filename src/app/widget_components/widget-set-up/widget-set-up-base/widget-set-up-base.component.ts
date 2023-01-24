@@ -61,7 +61,7 @@ export class WidgetSetUpBaseComponent extends WidgetSharedComponent implements O
         }
       ],
       'en': {
-        'wellcomeTitle': 'Hi, welcome to tiledesk 👋 ',
+        'wellcomeTitle': 'Hi, welcome to Userzone 👋 ',
         'wellcomeMsg': 'How can we help you?',
         'calloutTitle': 'Need Help?',
         'calloutMsg': 'Click here and start chatting with us!',
@@ -70,7 +70,7 @@ export class WidgetSetUpBaseComponent extends WidgetSharedComponent implements O
         'offline_msg': '🤔 All operators are offline at the moment. You can anyway describe your problem. It will be assigned to the support team who will answer you as soon as possible.'
       },
       'it': {
-        'wellcomeTitle': 'Ciao, benvenuto su tiledesk 👋',
+        'wellcomeTitle': 'Ciao, benvenuto su Userzone 👋',
         'wellcomeMsg': 'Come possiamo aiutarti?',
         'calloutTitle': 'Bisogno di aiuto?',
         'calloutMsg': 'Clicca qui e inizia a chattare con noi!',

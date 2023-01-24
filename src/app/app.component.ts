@@ -196,6 +196,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
 
         this.logger.log('[APP-COMPONENT] !!! =========== HELLO APP.COMP (constructor) ===========')
 
+        // translate.setDefaultLang('fa');
         translate.setDefaultLang('en');
 
         const browserLang = this.translate.getBrowserLang();

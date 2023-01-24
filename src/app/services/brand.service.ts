@@ -17,20 +17,20 @@ export class BrandService {
   public brand: any;
 
    _brand = {
-    "metaTitle": "Tiledesk Support Dashboard",
-    "favicon__url": "https://tiledesk.com/wp-content/uploads/2022/07/tiledesk_v13-300x300.png",
-    "company_name": "Tiledesk",
-    "company_site_name": "tiledesk.com",
-    "company_site_url": "https://www.tiledesk.com",
+    "metaTitle": "Userzone Support Dashboard",
+    "favicon__url": "https://affilio.ir/wp-content/uploads/2023/01/icon-user-zone.png",
+    "company_name": "Userzone",
+    "company_site_name": "userzone.ir",
+    "company_site_url": "https://www.userzone.ir",
     "company_logo_white__url": "assets/img/logos/tiledesk-logo_white_orange.svg",
-    "company_logo_black__url": "assets/img/logos/tiledesk_3.0_logo_black_v2_no_version.svg",
-    "company_logo_allwhite__url": "assets/img/logos/tiledesk_3.0_logo_all_white_v2_no_version.svg",
+    "company_logo_black__url": "assets/img/logos/user_chat_black.svg",
+    "company_logo_allwhite__url": "assets/img/logos/user-chat-white.svg",
     "company_logo_no_text__url": "assets/img/logos/tiledesk-solo-logo.png",
     "privacy_policy_link_text": "Privacy Policy",
-    "privacy_policy_url": "https://www.tiledesk.com/privacy.html",
+    "privacy_policy_url": "https://www.userzone.ir/privacy.html",
     "display_terms_and_conditions_link": true,
-    "terms_and_conditions_url": "https://www.tiledesk.com/termsofservice.html",
-    "contact_us_email": "support@tiledesk.com",
+    "terms_and_conditions_url": "https://www.userzone.ir/termsofservice.html",
+    "contact_us_email": "support@userzone.ir",
     "footer": {
         "display_terms_and_conditions_link": true,
         "display_contact_us_email": true
@@ -162,7 +162,7 @@ export class BrandService {
 
       this.brand = this._brand;
       // this.notify.showNotificationChangeProject('ops', 2, 'done');
-      this.displaySwalAlert(err)
+      // this.displaySwalAlert(err)
     }
   }
 

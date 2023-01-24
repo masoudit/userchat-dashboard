@@ -3,7 +3,7 @@
   "version": "2.3.3-rc1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --aot",
+    "start": "ng serve --port 4400",
     "build": "ng build -- --output-path=dist --base-href ./",
     "build2": "ng build --prod",
     "test": "ng test",

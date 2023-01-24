@@ -1367,7 +1367,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
 
   goToDeveloperDocs() {
     // const url = 'https://docs.tiledesk.com/';
-    const url = 'https://developer.tiledesk.com';
+    const url = 'https://developer.userzone.ir';
     window.open(url, '_blank');
   }
 
@@ -1379,7 +1379,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit {
 
   goToChangelogBlog() {
     // const url = 'https://tiledesk.com/tiledesk-changelog'
-    const url = 'https://tiledesk.com/category/changelog/'
+    const url = 'https://userzone.ir/category/changelog/'
     window.open(url, '_blank');
     this.usersLocalDbService.savChangelogDate()
     this.hidechangelogrocket = true;

@@ -925,6 +925,7 @@ export class BasetriggerComponent implements OnInit {
           { id: 'it', label_key: 'Italian' },
           { id: 'de', label_key: 'German' },
           { id: 'es', label_key: 'Spanish' },
+          { id: 'fa', label_key: 'Iran' },
         ],
         // 'request.language': [
         //   { id: 'zh-CN', label_key: 'Chinese' },
