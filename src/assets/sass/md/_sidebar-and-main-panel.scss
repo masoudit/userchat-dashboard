@@ -312,6 +312,9 @@ h1,h2,h3,h4,h5 {
         margin-top: 70px;
         padding: 30px 15px;
         min-height: calc(100% - 123px);
+        h1,h2,h3,h4,h5 {
+            text-align: right !important;
+        }
     }
     div {
         .footer {
